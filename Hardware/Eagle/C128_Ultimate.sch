@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2247,11 +2247,11 @@ Source: Samtec TSW.pdf</description>
 <wire x1="163.83" y1="153.67" x2="165.1" y2="153.67" width="0.1524" layer="91"/>
 <wire x1="163.83" y1="153.67" x2="163.83" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="163.83" y1="151.13" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="165.1" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="157.48" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="157.48" x2="163.83" y2="153.67" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="153.67" x2="163.83" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="160.02" x2="165.1" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="175.26" y1="93.98" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
@@ -2800,8 +2800,9 @@ Source: Samtec TSW.pdf</description>
 <junction x="215.9" y="142.24"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="165.1" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
