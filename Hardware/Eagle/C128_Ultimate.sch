@@ -2164,7 +2164,9 @@ Source: Samtec TSW.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device="">
+<attribute name="DESIGNER" value="Copyright (c) 2018 http://retro-commodore.eu"/>
+</part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="C64CartridgeEdgeConnector" deviceset="0RB_COMMODORE_EXPANSION_PORT_C64" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -2174,9 +2176,15 @@ Source: Samtec TSW.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="185.42" y="20.32" size="2.54" layer="94">Cartridge Vertical to Horizontal adapter</text>
+<text x="185.42" y="10.16" size="2.54" layer="94">Designer: Tomse</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="19.05" y="3.81"/>
+<instance part="FRAME1" gate="G$1" x="3.81" y="3.81" smashed="yes">
+<attribute name="SHEET" x="199.39" y="5.08" size="2.54" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="185.366" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="CREVISION" x="238.73" y="4.98" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="GND2" gate="1" x="166.37" y="153.67" rot="R90"/>
 <instance part="IC1" gate="G$7" x="58.42" y="116.84"/>
 <instance part="SUPPLY1" gate="G$1" x="160.02" y="99.06"/>
