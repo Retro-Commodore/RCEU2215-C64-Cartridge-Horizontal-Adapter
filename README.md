@@ -10,8 +10,8 @@ The U2+ IEC got moved back in this new design, but not enough, and now the tape 
 The result was to make this adapter, and the items below fixes that problem
 
 
-* 2 (nylon) standoffs
-* A cartridge connector 
-* this pcb
+* 2 (nylon) standoffs 
+* 44pin Edge connector 2.54mm pitch, straight
+
 
 Standoffs and connector can be found on ebay, or perhaps your favorite local store.
