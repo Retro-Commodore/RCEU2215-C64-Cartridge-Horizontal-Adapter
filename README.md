@@ -7,4 +7,11 @@ I got annoyed that the C128 would reset by cables and the back wall, on the rese
 Also the IEC cable connectors would cross tightly and strain the connectors on both IEC and U2 ports. 
 The U2+ IEC got moved back in this new design, but not enough, and now the tape connector + audio connectors are in the way.
 
-The result was to make this adapter, 2 nylon standoffs, a cartridge connector and this pcb is all that is needed to fix this problem.
+The result was to make this adapter, and the items below fixes that problem
+
+
+* 2 (nylon) standoffs
+* A cartridge connector 
+* this pcb
+
+Standoffs and connector can be found on ebay, or perhaps your favorite local store.
