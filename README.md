@@ -1,5 +1,5 @@
 # Cartridge horizontal adapter
-Cartrdige vertical to horizontal adapter, i.e. for C128DCR and 1541 Ultimate
+Cartridge vertical to horizontal adapter, i.e. for C128DCR and 1541 Ultimate
 
 
 This is an adapter I created for my Commodore 128 DCR and 1541 Ultimate 2(+).
