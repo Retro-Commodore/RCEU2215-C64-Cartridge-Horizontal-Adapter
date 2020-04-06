@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -161,8 +161,8 @@
 <wire x1="0" y1="83.24" x2="0" y2="9.9314" width="0" layer="20"/>
 <wire x1="0" y1="9.9314" x2="0.5334" y2="9.398" width="0" layer="20" curve="90"/>
 <wire x1="0.5334" y1="9.398" x2="0.635" y2="9.2964" width="0" layer="20" curve="-90"/>
-<text x="10" y="72" size="1.4224" layer="25">C128 Cartridge extender v1.0.2
-Copyright (c) 2018 http://retro-commodore.eu</text>
+<text x="29.1567" y="71.5357" size="1.4224" layer="25" rot="R180" align="center">RCEU2215 - Cartridge Horizontal Adapter v1.0.2
+Copyright (c) 2018-2020 http://retro-commodore.eu</text>
 </plain>
 <libraries>
 <library name="C64CartridgeEdgeConnector">
@@ -515,6 +515,9 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -625,8 +628,8 @@ design rules under a new name.</description>
 <attribute name="MPN" value="TSW-122-07-G-Q" x="29.1778" y="63.2696" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-0.6672" y="67.0796" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U$1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="5" y="78"/>
-<element name="U$2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="53" y="78"/>
+<element name="U$1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="5" y="78" smashed="yes"/>
+<element name="U$2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="53" y="78" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -948,6 +951,13 @@ design rules under a new name.</description>
 <wire x1="33.02" y1="60.6974" x2="32.9878" y2="60.7296" width="0.1524" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
 <approved hash="21,19,676be76be569e4e6"/>
 <approved hash="21,19,97ad95af95af97ad"/>
