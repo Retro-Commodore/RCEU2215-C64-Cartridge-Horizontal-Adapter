@@ -1,4 +1,4 @@
-# Cartridge horizontal adapter
+# RCEU2215 - Cartridge Horizontal Adapter
 Cartridge vertical to horizontal adapter, i.e. for C128DCR and 1541 Ultimate
 
 
