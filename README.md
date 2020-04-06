@@ -1,4 +1,4 @@
-# RCEU2215 - Cartridge Horizontal Adapter
+# RCEU2215 - C64 Cartridge Horizontal Adapter
 Cartridge vertical to horizontal adapter, i.e. for C128DCR and 1541 Ultimate
 
 
@@ -16,4 +16,4 @@ The result was to make this adapter, and the items below fixes that problem
 
 Standoffs and connector can be found on ebay, or perhaps your favorite local store.
 
-![Cartridge Horizontal Adapter](Pics/Top.jpg)
+![C64 Cartridge Horizontal Adapter](Pics/Top.jpg)
